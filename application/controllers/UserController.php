@@ -89,7 +89,7 @@ class UserController extends CI_Controller {
 
 		$this->User->updateSubscriptionStatus($userData[0]->msisdn, $newStatus);
 
-		redirect('/usercontroller/listusers/', 'refresh');
+		redirect('/UserController/listUsers/', 'refresh');
 	}
 
 }
