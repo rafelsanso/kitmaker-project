@@ -28,7 +28,7 @@
       </div>
       <div class="form-group">
         <label for="email">Mobile</label>
-        <input type="text" class="form-control" id="mobile" placeholder="Mobile" name="mobile" value="<?php echo $user[0]->mobile; ?>">
+        <input type="text" class="form-control" id="msisdn" placeholder="Mobile" name="msisdn" value="<?php echo $user[0]->msisdn; ?>">
       </div>
       <div class="form-group">
         <label for="credits">Credits</label>
