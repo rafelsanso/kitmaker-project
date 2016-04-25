@@ -68,7 +68,7 @@ class User extends CI_Model {
 
         $this->username   = $data['username'];
         $this->email = $data['email'];
-        $this->mobile = $data['msisdn'];
+        $this->msisdn = $data['msisdn'];
         $this->credits = $data['credits'];
         $this->active = (isset($data['active'])) ? 1 : 0;
         $this->date    = time();
