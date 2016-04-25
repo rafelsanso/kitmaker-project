@@ -17,7 +17,7 @@
     </div>
   <?php } ?>
   <div class="signin_form">
-    <?php echo form_open('usercontroller/update/' . $user[0]->id); ?>
+    <?php echo form_open('UserController/update/' . $user[0]->id); ?>
       <div class="form-group">
         <label for="username">Username</label>
         <input type="text" class="form-control" id="username" placeholder="Username" name="username" value="<?php echo $user[0]->username; ?>">

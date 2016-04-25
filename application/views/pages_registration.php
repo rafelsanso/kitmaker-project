@@ -17,7 +17,7 @@
     </div>
   <?php } ?>
   <div class="signin_form">
-    <?php echo form_open('usercontroller/register'); ?>
+    <?php echo form_open('UserController/register'); ?>
       <div class="form-group">
         <label for="username">Username</label>
         <input type="text" class="form-control" id="username" placeholder="Username" name="username" value="<?php echo (isset($user['username']) && !isset($message['success'])) ? $user['username'] : ''; ?>">
