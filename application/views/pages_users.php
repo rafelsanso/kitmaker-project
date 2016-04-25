@@ -29,7 +29,7 @@
 			<td><?php echo $user->credits; ?></td>
 			<td><?php echo ($user->active) ? 'Active' : 'Disabled'; ?></td>
 			<td>
-				<?php echo form_open('usercontroller/listusers', $attributes); ?>
+				<?php echo form_open('UserController/listUsers', $attributes); ?>
 			        <div class="form-group">
 			          <input type="text" class="form-control" placeholder="Type text" name="sms">
 			        </div>
