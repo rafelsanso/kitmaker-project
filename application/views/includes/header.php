@@ -41,8 +41,8 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Users <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="<?php echo site_url('usercontroller/listusers'); ?>">List users</a></li>
-							<li><a href="<?php echo site_url('usercontroller/register'); ?>">Register new</a></li>
+							<li><a href="<?php echo site_url('UserController/listUsers'); ?>">List users</a></li>
+							<li><a href="<?php echo site_url('UserController/register'); ?>">Register new</a></li>
 						</ul>
 					</li>
 				</ul>

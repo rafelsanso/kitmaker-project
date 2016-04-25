@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="col-sm-12">
 		<h1 class="pull-left">List users</h1>
-		<a class="btn btn-default pull-right h1" href="<?php echo site_url('usercontroller/register'); ?>" role="button">Register new</a>
+		<a class="btn btn-default pull-right h1" href="<?php echo site_url('UserController/register'); ?>" role="button">Register new</a>
 	</div>
 </div>
 <hr>
@@ -39,8 +39,8 @@
 			    <?php echo form_close(); ?>
 			</td>
 			<td class="text-right">
-				<a class="btn btn-default" href="<?php echo site_url('usercontroller/update/' . $user->id); ?>" role="button"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a>
-				<a class="btn btn-default" href="<?php echo site_url('usercontroller/updatesubscription/' . $user->id); ?>" role="button">Change subscription</a>
+				<a class="btn btn-default" href="<?php echo site_url('UserController/update/' . $user->id); ?>" role="button"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a>
+				<a class="btn btn-default" href="<?php echo site_url('UserController/updateSubscription/' . $user->id); ?>" role="button">Change subscription</a>
 			</td>
 		</tr>
 		<?php } ?>

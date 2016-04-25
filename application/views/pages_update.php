@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col-sm-12">
     <h1 class="pull-left">Update subscription</h1>
-    <a class="btn btn-default pull-right h1" href="<?php echo site_url('usercontroller/listusers'); ?>" role="button">Return to user list</a>
+    <a class="btn btn-default pull-right h1" href="<?php echo site_url('UserController/listUsers'); ?>" role="button">Return to user list</a>
   </div>
 </div>
 <hr>
