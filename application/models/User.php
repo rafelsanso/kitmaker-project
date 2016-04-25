@@ -9,7 +9,7 @@ class User extends CI_Model {
         $id 		= null;
         $username 	= null;
         $email 		= null;
-        $mobile 	= null;
+        $msisdn 	= null;
         $credits 	= null;
         $active 	= null;
         $date 		= null;
@@ -68,7 +68,7 @@ class User extends CI_Model {
 
         $this->username   = $data['username'];
         $this->email = $data['email'];
-        $this->mobile = $data['mobile'];
+        $this->mobile = $data['msisdn'];
         $this->credits = $data['credits'];
         $this->active = (isset($data['active'])) ? 1 : 0;
         $this->date    = time();
